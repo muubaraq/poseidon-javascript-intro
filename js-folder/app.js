@@ -71,6 +71,8 @@ function poseidonFunction(a, b){
 }
 console.log(poseidonFunction(10, 3));
 
+
+
 /*
 Write a function that will solve quadratic equations using the almighty formula. This will take three parameters 
   */
@@ -79,6 +81,8 @@ function quadFunction (a, b, c){
     return (b * b) - (4 * a * c);
 }
 console.log(quadFunction(1, 2, 1));
+
+
 
 /*
 Using the constants below, create your own sentence
@@ -93,6 +97,8 @@ Using the constants below, create your own sentence
  const wordBlanks= `My ${myNoun} is ${myAdjective} and he ${myVerb} ${myAdverb} to the park`;
   console.log(wordBlanks);
 
+
+
   /* Write a function that will find the area of a circle. 
 Use Const PI = 3.142
 Also, find the area of a circle with a radius of 9cm
@@ -106,6 +112,8 @@ Also, find the area of a circle with a radius of 9cm
       return pi * (radius * radius);
   }
   console.log(circleArea(radius));
+
+
 
   /*
   How much Simple Interest can a person get on N. 8,200 at 17.5% p.a. for a period of 2 years and 6 months? Ensure you store each of them in a variable and console your answer
@@ -125,3 +133,32 @@ Also, find the area of a circle with a radius of 9cm
   const ten = 10;
   const four = 4;
   console.log(ten % four);
+
+  /*
+  Merit and Nutjob are trying to compare their BMI (Body Mass Index), which is
+calculated using the formula:
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter).
+Your tasks:
+Store Merit and Nutjob's mass and height in variables
+Calculate both their BMIs using the formula (you can even implement both
+versions)
+Create a Boolean variable 'meritHigherBMI' containing information about whether Mark has a higher BMI than John.
+Test data:
+§ Data 1: Merit weights 78 kg and is 1.69 m tall. Nutjob weighs 92 kg and is 1.95m tall.
+§ Data 2: Nutjob weighs 95 kg and is 1.88 m tall. Merit weights 85 kg and is 1.76m tall.
+*/
+
+  const meritMass = 78;
+  const meritHeight = 1.69;
+  const meritBMI = meritMass / (meritHeight * meritHeight);
+  console.log(meritBMI);
+
+  const nutjobMass = 92;
+  const nutjobHeight = 1.95;
+  const nutjobBMI = nutjobMass / (nutjobHeight * nutjobHeight);
+  console.log(nutjobBMI);
+
+  const meritHigherBMI = meritBMI > nutjobBMI;
+  console.log(meritHigherBMI);
+
+  
