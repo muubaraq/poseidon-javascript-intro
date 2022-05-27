@@ -106,3 +106,22 @@ Also, find the area of a circle with a radius of 9cm
       return pi * (radius * radius);
   }
   console.log(circleArea(radius));
+
+  /*
+  How much Simple Interest can a person get on N. 8,200 at 17.5% p.a. for a period of 2 years and 6 months? Ensure you store each of them in a variable and console your answer
+  */
+
+  const principal = 8200;
+  const rate = 17.5;
+  const time = 2.5;
+  const interest = (principal * rate * time) / 100;
+  console.log(interest);
+
+
+  /*
+  What will be the result of 10 % 4? Console.log your answer
+  */
+
+  const ten = 10;
+  const four = 4;
+  console.log(ten % four);
