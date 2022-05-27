@@ -78,7 +78,9 @@ Write a function that will solve quadratic equations using the almighty formula.
   */
 
 function quadFunction (a, b, c){
-    return (b * b) - (4 * a * c);
+    var result = ((b * b) - Math.sqrt(4 * a * c)) / (2 * a);
+    var result2 = ((b * b) + Math.sqrt(4 * a * c)) / (2 * a);
+    return result + " and " + result2
 }
 console.log(quadFunction(1, 2, 1));
 
