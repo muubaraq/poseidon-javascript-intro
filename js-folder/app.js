@@ -142,7 +142,7 @@ Your tasks:
 Store Merit and Nutjob's mass and height in variables
 Calculate both their BMIs using the formula (you can even implement both
 versions)
-Create a Boolean variable 'meritHigherBMI' containing information about whether Mark has a higher BMI than John.
+Create a Boolean variable 'meritHigherBMI' containing information about whether Merit has a higher BMI than nutjob.
 Test data:
 § Data 1: Merit weights 78 kg and is 1.69 m tall. Nutjob weighs 92 kg and is 1.95m tall.
 § Data 2: Nutjob weighs 95 kg and is 1.88 m tall. Merit weights 85 kg and is 1.76m tall.
@@ -161,4 +161,17 @@ Test data:
   const meritHigherBMI = meritBMI > nutjobBMI;
   console.log(meritHigherBMI);
 
-  
+
+  // data 2
+  const nutjobMass2 = 95;
+  const nutjobHeight2 = 1.88;
+  const nutjobBMI2 = nutjobMass2 / (nutjobHeight2 * nutjobHeight2);
+  console.log(nutjobBMI2);
+
+  const meritMass2 = 85;
+  const meritHeight2 = 1.76;
+  const meritBMI2 = meritMass2 / (meritHeight2 * meritHeight2);
+  console.log(meritBMI2);
+
+  const meritHigherBMI2 = meritBMI2 > nutjobBMI2;
+  console.log(meritHigherBMI2);
