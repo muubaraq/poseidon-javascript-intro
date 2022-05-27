@@ -24,17 +24,7 @@ let teamName =
 
   console.log(teamName[0]);
     
-  console.log(teamName[1]);
-
-  console.log(teamName[2]);
-
-  console.log(teamName[3]);
-
-  console.log(teamName[4]);
-
-  console.log(teamName[5]);
-
-  console.log(teamName[6]);
+  
 
   /* 
   Create an object that has the following things
