@@ -1,4 +1,12 @@
+/*
+Create a card and Using any of the selectors we learnt, display the name of your group beside the group name: E.g Group name: Team-amadioha. Also, add some colour using javascript to your team name (your choice of colour). Design your card in the centre of your page and have a border radius. The team name should be on the card with a list of your team members below. You can design it to your taste
 
+*/
+
+let headerEl = document.querySelector("h1");
+headerEl.innerHTML = "Poseidon";
+
+document.getElementById("header-title").style.color = "skyblue";
 
 /* 
 Create an array that will contain the name of your team members starting with your team lead's name and that of your team members. Then console.log your name based on the position it is in the array.

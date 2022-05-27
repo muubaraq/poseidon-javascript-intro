@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+i {
+  color: skyblue;
+  margin-right: 5px;
+}
+
+.card {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://cdn.pixabay.com/photo/2016/08/26/01/32/poseidon-1621062_960_720.jpg");      
+   background-repeat:no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px 4em 10px 3.5em;
+  padding: 2em;
+  box-shadow: #ccc 0 0 10px;
+}
+
